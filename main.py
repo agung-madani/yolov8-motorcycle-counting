@@ -105,8 +105,10 @@ while True:
     cv2.polylines(frame, [np.array(area2, np.int32)], True, (0, 255, 0), 1)
     entr = len(counter1)
     ext = len(counter2)
-    cvzone.putTextRect(frame, f'Enter: {entr}', (50, 50), 2, 2)
-    cvzone.putTextRect(frame, f'Exit: {ext}', (50, 100), 2, 2)
+    cvzone.putTextRect(frame, f'Motorbikes enters the UIN Gate: {entr}', (50, 90), 1, 1, (255, 255, 255), (255, 165, 0))
+    cvzone.putTextRect(frame, f'Motorbikes exits the UIN Gate: {ext}', (50, 130), 1, 1, (255, 255, 255), (255, 165, 0))
+    cvzone.putTextRect(frame, f'Programmer: Agung Rashif Madani', (688, 465), 1, 1, (255, 255, 255), (128, 0, 128))
+    cvzone.putTextRect(frame, f'Motorbikes Counter', (370, 50), 2, 2, (255, 255, 255), (2, 243, 152))
 
     # Display the processed frame in the 'RGB' window
     cv2.imshow("RGB", frame)
