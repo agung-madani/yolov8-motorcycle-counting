@@ -2,6 +2,8 @@
 
 This repository contains a script for tracking motorcycles in a video using YOLO (You Only Look Once) object detection. The script is designed to process a specific video file and perform motorcycle tracking and counting based on predefined areas.
 
+https://github.com/agung-madani/yolov8-motorcycle-counting/assets/121701309/fea95f91-9c25-49e2-a065-ac47c36aa1dd
+
 ## Files
 
 - `coco.txt`: Contains class names used for object detection.
