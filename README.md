@@ -36,7 +36,3 @@ pip install opencv-python pandas cvzone ultralytics
 To run the motorcycle tracking script, ensure that you have all the necessary files in the same directory. The script uses OpenCV, Pandas, and cvzone libraries for image processing and tracking. Make sure you have these libraries installed.
 
 You can run the script `main.py` with Python 3. Make sure to provide the necessary video file and weight file as required. The script will display the processed video with motorcycle tracking and counting information.
-
-## Author
-
-- Agung Rashif Madani
